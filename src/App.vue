@@ -232,7 +232,7 @@
         results3: {},
         dark: false,
         disabled: false,
-        disabledTel: true,
+        disabledTel: false,
         hasLoaderActive: false,
         hasErrorActive: false
       }

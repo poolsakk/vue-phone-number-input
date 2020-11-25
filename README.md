@@ -112,6 +112,7 @@ Vue.component('vue-phone-number-input', VuePhoneNumberInput);
 | no-validator-state        | Boolean         | no       | false               |
 | no-flags                  | Boolean         | no       | false               |
 | disabled                  | Boolean         | no       | false               |
+| disabled-tel              | Boolean         | no       | false               |
 | dark                      | Boolean         | no       | false               |
 | dark-color                | String (hex)    | no       | #424242             |
 | required                  | Boolean         | no       | false               |
