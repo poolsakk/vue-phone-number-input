@@ -6,7 +6,7 @@
       'is-valid': valid,
       'has-value': value,
       'has-error': error,
-      'is-disabled': disabled,
+      'is-disabled': disabledTel,
       'is-dark': dark,
       'has-hint': hint
     }, size]"
@@ -23,7 +23,7 @@
       :placeholder="labelValue"
       :type="type"
       class="input-tel__input"
-      :disabled="disabled"
+      :disabled="disabledTel"
       :required="required"
       :class="{ 'no-country-selector': noCountrySelector }"
       :style="[
@@ -88,7 +88,7 @@
       label: { type: String, default: 'Enter text' },
       hint: { type: String, default: null },
       error: { type: Boolean, default: Boolean },
-      disabled: { type: Boolean, default: false },
+      disabledTel: { type: Boolean, default: false },
       dark: { type: Boolean, default: false },
       id: { type: String, default: 'InputTel' },
       size: { type: String, default: null },

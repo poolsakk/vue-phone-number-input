@@ -59,6 +59,7 @@
               color="dodgerblue"
               :dark="dark"
               :disabled="disabled"
+              :disabledTel="disabledTel"
               :ignored-countries="countriesIgnored"
               :preferred-countries="countriesList"
               :loader="hasLoaderActive"
@@ -231,6 +232,7 @@
         results3: {},
         dark: false,
         disabled: false,
+        disabledTel: true,
         hasLoaderActive: false,
         hasErrorActive: false
       }

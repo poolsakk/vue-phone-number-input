@@ -43,7 +43,7 @@
         :label="t.phoneNumberLabel"
         :hint="hintValue"
         :dark="dark"
-        :disabled="disabled"
+        :disabledTel="disabledTel"
         :size="size"
         :error="error"
         :valid="isValid && !noValidatorState"
@@ -98,6 +98,7 @@
       errorColor: { type: String, default: 'orangered' },
       darkColor: { type: String, default: '#424242' },
       disabled: { type: Boolean, default: false },
+      disabledTel: { type: Boolean, default: false },
       defaultCountryCode: { type: String, default: null },
       size: { type: String, default: null },
       preferredCountries: { type: Array, default: null },
